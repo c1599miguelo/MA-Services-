@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MA SERVICES</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <div class="logo">MA SERVICES</div>
+    <nav>
+      <a href="#servicios">Servicios</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>Soluciones en Tecnología</h1>
+    <p>Mantenimiento, soporte y licenciamiento profesional</p>
+    <a href="#servicios" class="btn">Ver Servicios</a>
+  </section>
+
+  <section id="servicios" class="servicios">
+    <h2>Nuestros Servicios</h2>
+    <div class="cards">
+      <div class="card">
+        <h3>Mantenimiento de Equipos</h3>
+        <p>Limpieza física y optimización de computadoras de escritorio y portátiles.</p>
+        <span>Desde $30</span>
+        <a href="https://wa.me/573192838012?text=Hola,%20estoy%20interesado%20en%20el%20servicio%20de%20Mantenimiento%20de%20Equipos" target="_blank" class="btn whatsapp">Solicitar</a>
+      </div>
+      <div class="card">
+        <h3>Instalación de Software</h3>
+        <p>Instalación profesional de sistemas operativos y programas esenciales.</p>
+        <span>Desde $20</span>
+        <a href="https://wa.me/573192838012?text=Hola,%20estoy%20interesado%20en%20el%20servicio%20de%20Instalación%20de%20Software" target="_blank" class="btn whatsapp">Solicitar</a>
+      </div>
+      <div class="card">
+        <h3>Licenciamiento de Software</h3>
+        <p>Adquisición y activación legal de software como Windows y Office.</p>
+        <span>Desde $50</span>
+        <a href="https://wa.me/573192838012?text=Hola,%20estoy%20interesado%20en%20el%20servicio%20de%20Licenciamiento%20de%20Software" target="_blank" class="btn whatsapp">Solicitar</a>
+      </div>
+      <div class="card">
+        <h3>Soporte Técnico y Redes</h3>
+        <p>Diagnóstico, reparación, configuración de redes y asistencia remota.</p>
+        <span>Consultas desde $25</span>
+        <a href="https://wa.me/573192838012?text=Hola,%20estoy%20interesado%20en%20el%20servicio%20de%20Soporte%20Técnico%20y%20Redes" target="_blank" class="btn whatsapp">Solicitar</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="contacto" class="contacto">
+    <h2>Contáctanos</h2>
+    <p>¿Necesitas ayuda? Escríbenos y uno de nuestros técnicos se pondrá en contacto contigo.</p>
+    <a href="https://wa.me/573192838012" target="_blank" class="btn whatsapp">Escribir por WhatsApp</a>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 MA SERVICES. Todos los derechos reservados.</p>
+  </footer>
+</body>
+</html>
